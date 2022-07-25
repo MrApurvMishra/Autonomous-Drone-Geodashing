@@ -1,15 +1,15 @@
-# AER1217 Winter 2022, Project
-# Team E: Aditya Jain, Apurv Mishra, Praharsha Abbireddy
+## AER1217 Winter 2022, Project
+### Team E: Aditya Jain, Apurv Mishra, Praharsha Abbireddy
 
-=============================
-Runnning the code 
-=============================
+
+**Runnning the code **
+
 Run 'roslaunch aer1217_ardrone_simulator ardrone_simulator.launch' in terminal. This will launch all the required nodes.
 
 
-=============================
-Files Information 
-=============================
+
+**Files Information **
+
 1. position_controller.py - calculates the commanded control using the vicon feedback, quadrotor dynamics and desired trajectory
                         
 2. ros_interface.py - subscribes to vicon feedback and desired trajectory topic, calls the position_controller and publishes the required control to /cmd_vel_RHC
